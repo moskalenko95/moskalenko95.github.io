@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	border-color: white;
+	color: black;
+	font-family: "Open Sans";
+	font-size: 22px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+h2{
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+p{
+	color: #010000;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+
+}
+.clearfix:before,
+.clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after{
+  clear: both;
+}
+.wrapper{
+	width: 100%;
+	max-width: 960px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 20px;
+	position: relative;
+}
+header{
+	background: url(../img/bg_header.png) no-repeat bottom;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+footer{
+	background: url(../img/footer.png) no-repeat top;
+	background-size: cover;
+	padding-top: 100px;
+}
+section{
+	position: relative;
+	min-height: 190px;
+	padding: 35px 0;
+	background-color: rgba(56,134,89,0.05);
+}
+.nav{
+	width: 100%;
+	margin-top: 28px;
+	margin-bottom: 45px;
+}
+.nav li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: 300;
+}
+.nav li:first-child{
+	padding-top: 3px;
+	vertical-align: middle;
+}
+.nav li:nth-child(n+3){
+	float: right;
+}
+.nav li:last-child{
+	margin-right: 103px;
+	padding: 12px 0;
+}
+.nav li:nth-child(4){
+	margin-right: 60px;
+	padding: 12px 0;
+}
+.btn_buy{
+	width: 140px;
+	height: 45px;
+	border: 3px solid black;
+	background: none;
+	color: #060706;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 300;
+	cursor: pointer;
+}
+.header_h2{
+	padding-left: 90px;
+}
+.header_p{
+	padding-right: 111px
+}
+.foot_one{
+	display: none;
+	position: absolute;
+	top: 200px;
+	right: 320px;
+}
+.foot_two{
+	display: none;
+	position: absolute;
+	top: 170px;
+	right: 235px;
+}
+.foot_three{
+	display: none;
+	position: absolute;
+	top: 185px;
+    right: 125px;
+}
+.foot_four{
+	display: none;
+	position: absolute;
+	top: 250px;
+	right: 35px;
+}
+.foot_five{
+	display: none;
+	position: absolute;
+	top: 340px;
+	right: 15px;
+}
+.foot_six{
+	display: none;
+	position: absolute;
+	top: 430px;
+	right: 15px;
+}
+.logo_big{
+	margin-left: 45px;
+	margin-bottom: 15px;
+}
+.box{
+	position: relative;
+	width: 460px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.wrap{
+	width: 100%;
+	height: 200px;
+}
+.logo_middle{
+	display: block;
+	float: left;
+    padding: 55px 0;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.logo_name{
+	padding: 67px 0;
+    font-family: "Open Sans";
+    font-size: 59px;
+    font-weight: 300;
+    display: block;
+    float: left;
+}
+.btn_big_buy{
+	width: 173px;
+	height: 59px;
+	background-color: #347a51;
+	border: none;
+	font-size: 30px;
+	font-weight: 300;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.footer_menu{
+	width: 100%;
+	text-align: center;
+}
+.footer_menu li{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	margin-right: 80px;
+}
+.footer_menu li:firs-child{
+	margin-right: 60px;
+}
+.footer_menu li:last-child{
+	margin: 0;
+}
+.btn_soc{
+	display: block;
+	width: 49px;
+	height: 49px;
+}
+.facebook{
+	background: url(../img/facebook.png) no-repeat center center ;
+}
+.google{
+	background: url(../img/google.png) no-repeat center center;
+}
+.twitter{
+	background: url(../img/twitter.png) no-repeat center center;
+}
+.copy_r{
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}

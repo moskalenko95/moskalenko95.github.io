@@ -1,0 +1,620 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 12px;
+	min-width: 320px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-family: "RobotoRegular", sans-serif;
+	color: black;
+}
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+ 
+.clearfix:after {
+clear: both;
+}
+ 
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+*zoom: 1;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.top_line{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #ccc
+}
+.lang{
+	float: left;
+	line-height: 50px;
+}
+.lang:after{
+content: "";
+display: inline-block;
+width: 1px;
+height: 26px;
+background-color: black;
+vertical-align: middle;
+margin-left: 15px;
+}
+.lang img{
+	vertical-align: middle;
+}
+.lang span{
+color: black;
+font-size: 12px;
+line-height: 36px;
+text-transform: uppercase;
+vertical-align: middle;
+}
+.lang i{
+	font-size: 21px; 
+	vertical-align: middle;
+}
+.auth{
+	line-height: 50px;
+	margin-left: 20px;
+	float: left;
+}
+.auth span b{
+	text-transform: uppercase;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.auth a{
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+}
+.icon{
+	float: right;
+	line-height: 50px;
+}
+.icon a{
+	text-decoration: none;
+}
+.icon a i{
+	font-size: 20px;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: black;
+}
+.icon span{
+	font-size: 14px;
+	vertical-align: middle;
+}
+.buy{
+	float: right;
+	padding: 0 20px;
+	margin-left: 20px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	line-height: 50px;
+}
+.buy i{
+	font-size: 20px;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: black;
+}
+.buy span{
+	font-size: 14px;
+	vertical-align: middle;
+}
+.line{
+	display: inline-block;
+	width: 1px;
+	height: 26px;
+	margin: 0 15px;
+	background-color: black;
+	vertical-align: middle;
+}
+span.money{
+	font-size: 18px;
+}
+.free{
+	padding-top: 35px;
+	margin-bottom: 60px;
+}
+.free_left{
+	width: 33.3%;
+	float: left;
+	text-align: left;	
+}
+.free_center{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+.free_center h1{
+	font-weight: 100;
+	font-size: 3em;
+    letter-spacing: 10px;
+
+}
+.free_right{
+	width: 33.3%;
+	float: left;
+	text-align: right;
+}
+.free_left p,
+.free_right p{
+	padding-bottom: 10px;
+	color: #787878;
+}
+.menu{
+	text-align: justify;
+}
+.menu li {
+	display: inline-block;
+	 text-align: left;
+	list-style: none;
+}
+.menu li.helper {
+                width: 100%;
+                height: 0;
+                visibility: hidden;
+}
+.menu li a{ 
+	font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.menu li.active a{
+	color: #9a2722;
+}
+.big_img{
+	width: 100%;
+	height: 585px;
+	padding-top: 260px;
+	box-sizing: border-box;
+	background: url(../img/slider.jpg) top center no-repeat;
+	text-align: center;
+	background-size: cover;
+}
+.big_img span{
+	display: block;
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+}
+.big_img span:before{
+	content: "";
+	display: block;
+	width: 23px;
+	height: 1px;
+	position: relative;
+	left: 42%;
+	top: 11px;
+	background-color: white;
+}
+.big_img span:after{
+	content: "";
+	display: block;
+	width: 23px;
+	height: 1px;
+	position: relative;
+	left: 56%;
+    top: -11px;
+	background-color: white;
+}
+.big_img h1{
+	margin-top: 25px;
+	color: white;
+	font-size: 34px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.big_img button{
+	padding: 15px 30px;
+	margin-top: 60px;
+	background: none;
+	border: 1px solid white;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+}
+.baner_one{
+	width: 58%;
+	height: 410px;
+	float: left;
+	padding-top: 70px;
+	text-align: center;
+	box-sizing: border-box;
+	background: url(../img/baner1.jpg) repeat repeat ;
+}
+.baner_one h1{
+	font-size: 32px;
+	font-weight: 100;;
+	text-transform: uppercase;
+}
+.baner_one p{
+	max-width: 495px;
+	margin: 15px auto;
+	font-size: 16px;
+	font-style: italic;
+}
+.baner_one span{
+font-size: 40px;
+font-weight: 100;
+text-transform: uppercase;
+}
+.baner_one button{
+	display: block;
+	margin: 20px auto;
+	padding: 15px 35px;
+	border: 1px solid black;
+	color: black;
+	background: none;
+	text-transform: uppercase;
+}
+.baner_two{
+	width: 42%;
+	height: 410px;
+	float: left;
+	background: url(../img/baner2.jpg)  no-repeat 92% 0;x
+}
+.social{
+	width: 260px;
+	height: 120px;
+	margin-top: 140px;
+	margin-left: 20px;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+.social a i{
+	transform: rotate(-45deg);
+    vertical-align: middle;
+    font-size: 19px;
+}
+.soc_btn{
+	display: block;
+	position: absolute;
+	width: 46px;
+	height: 46px;
+	float: left;
+	border: 1px solid black;
+	transform: rotate(45deg);
+	line-height: 45px;
+	text-align: center;
+	overflow: hidden;
+	color: black;
+}
+.soc_fb{
+	top: 0;
+	left: 0;
+}
+.soc_tw{
+	top: 0;
+    left: 89px;
+}
+.soc_pint{
+	top: 0;
+    left: 178px;
+}
+.soc_googl{
+	top: 46px;
+    left: 43px;
+}
+.soc_insta{
+	top: 46px;
+    left: 133px;
+}
+.shop_swim{
+	position: relative;
+	width: 410px;
+	height: 535px;
+	margin-top: 50px;
+	float: right;
+	background: url(../img/swim.jpg) no-repeat -42px;
+}
+.sale_col{
+	position: relative;
+	width: 470px; 
+	height: 535px;
+	margin-top: 50px;
+	margin-left: 20px;
+	float: right;
+	background: url(../img/sale.jpg) no-repeat;
+}
+.trend{
+	position: relative;
+	width: 280px; 
+	height: 660px;
+	float: left;
+	margin-top: 105px;
+	background: url(../img/trend.jpg) no-repeat -162px;
+}
+.flower{
+	position: relative;
+	width: 900px;
+    height: 420px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-right: 90px;
+	float: right;
+	background: url(../img/flower.jpg) no-repeat -172px 0;
+	box-sizing: border-box;
+}
+.flower_info{
+	float: right;
+	margin-top: 120px;
+	text-align: center;
+}
+.flower_info span{
+	display: block;
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+}
+.flower_info span:before{
+	position: absolute;
+    left: 52%;
+    top: 31%;
+	content: "";
+	display: block;
+	width: 23px;
+	height: 1px;
+	background-color: white;
+}
+.flower_info span:after{
+	position: absolute;
+    right: 25%;
+    top: 31%;
+	content: "";
+	display: block;
+	width: 23px;
+	height: 1px;
+	background-color: white;
+}
+.flower_info h1{
+	margin-top: 25px;
+	color: white;
+	font-size: 34px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.flower_info button{
+	padding: 15px 30px;
+	margin-top: 40px;
+	background: none;
+	border: 1px solid white;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+}
+.titl{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 70px;
+	background: rgba(999, 999, 999, 0.6);
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 70px;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+.titl:before{
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+    left: 50%;
+    top: -8px;
+    margin-left: -7.5px;
+	background: black;
+	transform: rotate(45deg);
+}
+.titl span{
+	color: #9a2722;
+}
+.shop_swim .titl{
+	top: 0;
+}
+.shop_swim .titl:before{
+	top: 63px;
+}
+.head_colle{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-weight: 100;
+    font-size: 3em;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.new_collection{
+	width: 100%;
+	height: 339px;
+	background-color: #f7f7f7;
+}
+.wrapper{
+	position: relative;
+}
+.prev{
+	display: block;
+	position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -30px;
+    margin-left: -40px;
+    font-size: 60px;
+    color: #ccc;
+}
+.next{
+	display: block;
+	position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -30px;
+    margin-right: -40px;
+    font-size: 60px;
+    color: #ccc;
+}
+.locator{
+	width: 100%;
+	height: 340px;
+	margin-top: 65px;
+	background: #f7f7f7;
+}
+.locator img{
+	margin: 50px 0 50px 95px;
+}
+.locator_info{
+	float: right;
+	margin-top: 75px;
+	margin-right: 105px; 
+	text-align: center;
+}
+.locator_info span{
+	display: block;
+	margin: 35px 0;
+	font-size: 14px;
+	font-style: italic;
+	color: #999;
+
+	text-transform: uppercase;
+}
+.locator_info h1{
+	color: #999;
+	font-size: 30px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.locator_info button{
+	padding: 15px 30px;
+	background: none;
+	border: 1px solid #999;
+	color: #999;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+}
+.footer{
+	margin-top:  80px;
+	border-top: 1px solid #ccc;
+}
+#email{
+	position: relative;
+	vertical-align: middle;
+	line-height: 130px;
+}
+#email label{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+#email input{
+	width: 410px;
+	height: 50px;
+	padding: 20px;
+	margin-right: 5px;
+	border: 1px solid #999;
+	box-sizing: border-box;
+	font-style: italic;
+	font-size: 14px;
+}
+#email button{
+	width: 204px;
+	height: 50px;
+	border: none;
+	margin-right: 55px;
+	background-color: #1a0000;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 100;
+}
+#email button i{
+	margin-right: 20px;
+}
+#email span{
+
+}
+.bottom_menu{
+	height: 48px;
+	background-color: #1a0000;
+}
+.bottom_menu ul li{
+	display: inline-block;
+	margin-right: 40px;
+	list-style: none;
+	color: white;
+	font-size: 16px;
+}
+.bottom_menu ul li:last-child{
+	float: right;
+	margin: 0;
+	font-size: 11px;
+	line-height: 48px;
+}
+.bottom_menu ul li a{
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 48px;
+}
+.click{
+	position: absolute;
+    float: right;
+    right: 124px;
+    top: 48px;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: #999;
+    line-height: 21px;
+    font-size: 12px;
+}
+.click b{
+	color: black;
+	font-size: 14px;
+}
